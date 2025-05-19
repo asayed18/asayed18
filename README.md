@@ -29,9 +29,9 @@ I am a **Senior Software Engineer** with over **7** years of experience in full-
 ---
 
 ## 📈 GitHub Stats
-![Ahmed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=asayed18&show_icons=true&theme=radical)
+![Ahmed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=asayed18&show_icons=true&theme=cobalt)
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=asayed18&layout=donut-vertical&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=asayed18&layout=donut-vertical&theme=cobalt)](https://github.com/anuraghazra/github-readme-stats)
 
 ---
 
