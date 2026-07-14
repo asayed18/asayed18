@@ -2,7 +2,7 @@
 
 **Senior Software Engineer | Backend & Platform | TypeScript · Python · AWS**
 
-I build scalable backend systems, developer tools, and AI-enabled products. I have **7+ years of experience** across full-stack engineering, with a focus on backend-heavy solutions, cloud infrastructure, and scalable system design.
+I build scalable backend systems, developer tools, and AI-enabled products. I have **10+ years of experience** across full-stack engineering, with a focus on backend-heavy solutions, cloud infrastructure, and scalable system design.
 
 - 🌍 Based in **Berlin, Germany**
 - 🔭 Currently working at [Babbel GmbH](https://www.babbel.com/)
@@ -46,6 +46,18 @@ I build scalable backend systems, developer tools, and AI-enabled products. I ha
       <a href="https://asayed18.top/"><strong>Personal Portfolio</strong></a><br />
       A concise overview of my experience, projects, and ways to get in touch.<br />
       <sub>Portfolio · Experience · Contact</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="110" align="center" valign="middle">
+      <a href="https://github.com/asayed18/tynamo">
+        <img src="https://opengraph.githubassets.com/1/asayed18/tynamo" width="96" alt="Tynamo repository preview" />
+      </a>
+    </td>
+    <td valign="middle">
+      <a href="https://github.com/asayed18/tynamo"><strong>Tynamo — DynamoDB Client Library</strong></a><br />
+      A simplified TypeScript interface for DynamoDB with nested attributes, batch operations, and local development support.<br />
+      <sub>TypeScript · AWS DynamoDB · Node.js · npm</sub>
     </td>
   </tr>
 </table>
