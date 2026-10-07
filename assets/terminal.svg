@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="318" viewBox="0 0 840 318">
+  <style>
+    text { font: 14px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; }
+    .p { fill: #fff; } .dir { fill: #a1a1aa; } .cmd { fill: #fff; font-weight: 600; } .out { fill: #a1a1aa; }
+    .ttl { font: 500 12px system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; fill: #52525b; }
+    .line { animation: show .35s ease-out both; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes show { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="838" height="316" rx="12" fill="#000" stroke="#27272a"/>
+  <path d="M1 13 a12 12 0 0 1 12 -12 h814 a12 12 0 0 1 12 12 v24 h-838 z" fill="#0e0e10"/>
+  <line x1="1" y1="37" x2="839" y2="37" stroke="#27272a"/>
+  <circle cx="24" cy="19" r="6" fill="#3f3f46"/><circle cx="44" cy="19" r="6" fill="#3f3f46"/><circle cx="64" cy="19" r="6" fill="#3f3f46"/>
+  <text x="420.0" y="23" text-anchor="middle" class="ttl">ahmed@berlin — zsh</text>
+  <text x="28" y="72" class="line" style="animation-delay:0.00s" xml:space="preserve"><tspan class="p">➜</tspan> <tspan class="dir">~</tspan> <tspan class="cmd">whoami</tspan></text><text x="28" y="95" class="line" style="animation-delay:0.70s" xml:space="preserve"><tspan class="out">Ahmed Sayed · Sr. Software Engineer · Berlin</tspan></text><text x="28" y="118" class="line" style="animation-delay:1.40s" xml:space="preserve"><tspan class="p">➜</tspan> <tspan class="dir">~</tspan> <tspan class="cmd">cat impact.txt</tspan></text><text x="28" y="141" class="line" style="animation-delay:2.10s" xml:space="preserve"><tspan class="out">130M+ CRM profiles at sub-second latency   (Babbel)</tspan></text><text x="28" y="164" class="line" style="animation-delay:2.80s" xml:space="preserve"><tspan class="out">35% faster APIs for 10M+ user profiles     (Amazon)</tspan></text><text x="28" y="187" class="line" style="animation-delay:3.50s" xml:space="preserve"><tspan class="out">Data pipelines over 100M+ records          (Huawei)</tspan></text><text x="28" y="210" class="line" style="animation-delay:4.20s" xml:space="preserve"><tspan class="p">➜</tspan> <tspan class="dir">~</tspan> <tspan class="cmd">ls focus/</tspan></text><text x="28" y="233" class="line" style="animation-delay:4.90s" xml:space="preserve"><tspan class="out">ai-products/  backend/  platform-tooling/  aws/</tspan></text><text x="28" y="256" class="line" style="animation-delay:5.60s" xml:space="preserve"><tspan class="p">➜</tspan> <tspan class="dir">~</tspan> <tspan class="cmd">echo $LEARNING</tspan></text><text x="28" y="279" class="line" style="animation-delay:6.30s" xml:space="preserve"><tspan class="out">Rust · local AI systems</tspan></text><g class="line" style="animation-delay:7.00s"><text x="28" y="302"><tspan class="p">➜</tspan> <tspan class="dir">~</tspan></text><rect class="cursor" x="62" y="289" width="9" height="16" fill="#fff"/></g>
+</svg>

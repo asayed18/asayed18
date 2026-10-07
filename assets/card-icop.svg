@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="170" viewBox="0 0 420 170">
+  <defs>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip"><rect x="1" y="1" width="418" height="168" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .title { font: 700 22px system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; fill: #fff; }
+    .sub { font: 500 13px system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; fill: #a1a1aa; }
+    .desc { font: 400 13px system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; fill: #a1a1aa; }
+    .pill { font: 500 11px system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; fill: #a1a1aa; }
+    .icon { font: 26px system-ui,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif; filter: grayscale(1); }
+    .trace { stroke-dasharray: 90 1074; animation: trace 5s linear infinite; }
+    .shine { animation: sweep 5s ease-in-out infinite; }
+    .ring { transform-origin: 368px 44px; animation: spin 6s linear infinite; }
+    .up { animation: up .8s ease-out both; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .35s; } .d3 { animation-delay: .6s; }
+    @keyframes trace { to { stroke-dashoffset: -1164; } }
+    @keyframes sweep { 0% { transform: translateX(-420px); } 60%,100% { transform: translateX(420px); } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <rect x="1" y="1" width="418" height="168" rx="14" fill="#000"/>
+  <g clip-path="url(#clip)"><rect class="shine" width="420" height="170" fill="url(#shine)"/></g>
+  <rect x="1" y="1" width="418" height="168" rx="14" fill="none" stroke="#27272a" stroke-width="1.5"/>
+  <rect class="trace" x="1" y="1" width="418" height="168" rx="14" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="368" cy="44" r="24" fill="#0e0e10" stroke="#27272a"/>
+  <circle class="ring" cx="368" cy="44" r="28" fill="none" stroke="#a1a1aa" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="40 200"/>
+  <text x="368" y="53" text-anchor="middle" class="icon">🛡️</text>
+  <g class="up d1"><text x="24" y="42" class="title">ICOP</text><text x="24" y="64" class="sub">AI Content Filter for VLC</text></g>
+  <g class="up d2"><text x="24" y="92" class="desc">Privacy-first local AI video filtering with</text><text x="24" y="110" class="desc">ONNX Runtime on Windows and Linux.</text></g>
+  <g class="up d3"><g transform="translate(24.0,128)"><rect width="49.0" height="22" rx="6" fill="#18181b" stroke="#27272a"/><text x="24.5" y="15" text-anchor="middle" class="pill">C/C++</text></g><g transform="translate(81.0,128)"><rect width="42.4" height="22" rx="6" fill="#18181b" stroke="#27272a"/><text x="21.2" y="15" text-anchor="middle" class="pill">ONNX</text></g><g transform="translate(131.4,128)"><rect width="55.6" height="22" rx="6" fill="#18181b" stroke="#27272a"/><text x="27.8" y="15" text-anchor="middle" class="pill">Vision</text></g></g>
+</svg>

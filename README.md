@@ -1,121 +1,64 @@
-# Hi, I'm Ahmed Sayed 👋
+<div align="center">
 
-**Senior Software Engineer | Backend & Platform | TypeScript · Python · AWS**
+<a href="https://asayed18.top/"><img src="./assets/hero.svg" width="100%" alt="Ahmed Sayed: Software Engineer, AI Enthusiast, ex-Amazon, ex-Huawei" /></a>
 
-I build scalable backend systems, developer tools, and AI-enabled products. I have **10+ years of experience** across full-stack engineering, with a focus on backend-heavy solutions, cloud infrastructure, and scalable system design.
+<a href="https://asayed18.top/">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=2800&pause=1400&color=A1A1AA&center=true&vCenter=true&width=600&lines=Building+AI+products;Scalable+backend+systems+on+AWS;TypeScript+%C2%B7+Python+%C2%B7+Go;Currently+exploring+Rust+and+local+AI" alt="Building AI products. Scalable backend systems on AWS." />
+</a>
 
-- 🌍 Based in **Berlin, Germany**
-- 🔭 Currently working at [Babbel GmbH](https://www.babbel.com/)
-- 🎯 Focused on backend engineering, platform tooling, AWS, and local AI systems
-- 🌱 Currently learning **Rust** and exploring AI-driven systems
-- 💬 Ask me about **TypeScript, Python, AWS, and scalable system design**
-- ⚡ Fun fact: I love hiking and exploring new cuisines 🍜
+<p>
+  <a href="https://asayed18.top/"><img src="https://img.shields.io/badge/asayed18.top-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/a-abdelsalam"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:me@asayed18.top"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Email" /></a>
+  <img src="https://komarev.com/ghpvc/?username=asayed18&label=views&color=27272a&style=for-the-badge" alt="Profile views" />
+</p>
 
----
+<img src="./assets/terminal.svg" width="100%" alt="whoami: Ahmed Sayed, Sr. Software Engineer in Berlin. Impact: 130M+ CRM profiles at sub-second latency at Babbel, 35% faster APIs for 10M+ user profiles at Amazon, data pipelines over 100M+ records at Huawei. Focus: AI products, backend, platform tooling, AWS. Learning Rust and local AI." />
 
-## 🚀 Featured Projects
+<a href="https://asayed18.top/"><img src="./assets/journey.svg" width="100%" alt="Career journey: Link Datacenter (2018–2019), Seedstars (2019–2020), Huawei (2020–2021), Amazon (2021–2022), Babbel (2022–present)" /></a>
 
-<table>
-  <tr>
-    <td width="110" align="center" valign="middle">
-      <a href="https://github.com/asayed18/awsf">
-        <img src="https://raw.githubusercontent.com/asayed18/awsf/main/docs/demo.gif" width="96" alt="AWSF project preview" />
-      </a>
-    </td>
-    <td valign="middle">
-      <a href="https://github.com/asayed18/awsf"><strong>AWSF — AWS Fuzzy Finder</strong></a><br />
-      Fast, keyboard-driven search across AWS resources including Lambda, S3, SQS, DynamoDB, RDS, Kinesis, and API Gateway.<br />
-      <sub>Python · AWS · fzf · Developer productivity</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="110" align="center" valign="middle">
-      <a href="https://github.com/asayed18/icop">
-        <img src="https://raw.githubusercontent.com/asayed18/icop/main/assets/branding/icop-steel-scanner-icon.png" width="96" alt="ICOP project logo" />
-      </a>
-    </td>
-    <td valign="middle">
-      <a href="https://github.com/asayed18/icop"><strong>ICOP — AI Content Filter for VLC</strong></a><br />
-      Privacy-first local AI video filtering using ONNX Runtime, with cross-platform support for Windows and Linux.<br />
-      <sub>C/C++ · ONNX Runtime · Computer vision · VLC</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="110" align="center" valign="middle">🌐</td>
-    <td valign="middle">
-      <a href="https://asayed18.top/"><strong>Personal Portfolio</strong></a><br />
-      A concise overview of my experience, projects, and ways to get in touch.<br />
-      <sub>Portfolio · Experience · Contact</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="110" align="center" valign="middle">
-      <a href="https://github.com/asayed18/tynamo">
-        <img src="https://opengraph.githubassets.com/1/asayed18/tynamo" width="96" alt="Tynamo repository preview" />
-      </a>
-    </td>
-    <td valign="middle">
-      <a href="https://github.com/asayed18/tynamo"><strong>Tynamo — DynamoDB Client Library</strong></a><br />
-      A simplified TypeScript interface for DynamoDB with nested attributes, batch operations, and local development support.<br />
-      <sub>TypeScript · AWS DynamoDB · Node.js · npm</sub>
-    </td>
-  </tr>
-</table>
+</div>
 
----
+## Featured Projects
 
-## 🛠️ Tech Stack
+<div align="center">
+  <a href="https://github.com/asayed18/awsf"><img src="./assets/card-awsf.svg" width="49%" alt="AWSF: AWS Fuzzy Finder" /></a>
+  <a href="https://github.com/asayed18/icop"><img src="./assets/card-icop.svg" width="49%" alt="ICOP: AI Content Filter for VLC" /></a>
+  <a href="https://github.com/asayed18/tynamo"><img src="./assets/card-tynamo.svg" width="49%" alt="Tynamo: DynamoDB Client Library" /></a>
+  <a href="https://asayed18.top/"><img src="./assets/card-portfolio.svg" width="49%" alt="Personal portfolio" /></a>
+</div>
 
-### Primary
+## Stack
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+<div align="center">
 
-### Also experienced with
+<img src="https://skillicons.dev/icons?i=ts,py,go,aws,nodejs,terraform,docker&theme=dark" alt="TypeScript, Python, Go, AWS, Node.js, Terraform, Docker" />
+<br/>
+<img src="https://skillicons.dev/icons?i=django,react,ruby,java,postgres,redis,linux,rust&theme=dark" alt="Django, React, Ruby, Java, PostgreSQL, Redis, Linux, Rust" />
 
-![Golang](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Terraform](https://img.shields.io/badge/Terraform-623CE4?style=for-the-badge&logo=terraform&logoColor=white)
+</div>
 
-### Currently learning
+## Activity
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=asayed18&show_icons=true&hide_border=true&bg_color=000000&title_color=ffffff&text_color=a1a1aa&icon_color=ffffff&ring_color=ffffff&include_all_commits=true&count_private=true" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asayed18&layout=compact&hide_border=true&bg_color=000000&title_color=ffffff&text_color=a1a1aa&langs_count=6" height="165" alt="Top languages" />
+  <br/>
+  <img src="https://streak-stats.demolab.com/?user=asayed18&hide_border=true&background=000000&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=a1a1aa&dates=52525b&stroke=27272a" alt="Contribution streak" />
+</div>
 
----
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/asayed18/asayed18/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/asayed18/asayed18/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/asayed18/asayed18/output/github-snake.svg" alt="Snake eating my contribution graph" />
+  </picture>
+</div>
 
-## 📈 GitHub Stats
-
-![Ahmed's GitHub Stats](https://github-readme-stats.vercel.app/api?username=asayed18&show_icons=true&theme=cobalt&hide_border=true)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=asayed18&layout=donut-vertical&theme=cobalt&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
-
----
-
-## 📫 Let's Connect!
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/asayed18/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/asayed18)
-[![Portfolio](https://img.shields.io/badge/Portfolio-24292F?style=for-the-badge&logo=google-chrome&logoColor=white)](https://asayed18.top/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:engahmedabdelsalam918@gmail.com)
-
----
-
-## 🏆 Achievements
+## Certifications
 
 - **Scrum Certified Developer**
 - **Deep Learning Nanodegree** from Udacity
-- **Full-Stack Web Development Nanodegree**
+- **Full-Stack Web Development Nanodegree** from Udacity
 
----
-
-## 👀 Visitors Count
-
-![Profile views](https://komarev.com/ghpvc/?username=asayed18&label=Profile%20views&color=0e75b6&style=flat)
-
----
-
-> *"Code is like humor. When you have to explain it, it's bad."* – Cory House
+<p align="center"><sub>Outside work: hiking and trying new cuisines.</sub></p>
