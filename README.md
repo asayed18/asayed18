@@ -41,7 +41,7 @@
 ## Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=asayed18&show_icons=true&hide_rank=true&hide_border=true&bg_color=000000&title_color=ffffff&text_color=a1a1aa&icon_color=ffffff&ring_color=ffffff&include_all_commits=true&count_private=true" height="165" alt="GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=asayed18&show_icons=true&hide_rank=true&hide=issues&hide_border=true&bg_color=000000&title_color=ffffff&text_color=a1a1aa&icon_color=ffffff&ring_color=ffffff&include_all_commits=true&count_private=true" height="165" alt="GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asayed18&layout=compact&hide_border=true&bg_color=000000&title_color=ffffff&text_color=a1a1aa&langs_count=6" height="165" alt="Top languages" />
   <br/>
   <img src="https://streak-stats.demolab.com/?user=asayed18&hide_border=true&background=000000&ring=ffffff&fire=ffffff&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=ffffff&sideLabels=a1a1aa&dates=52525b&stroke=27272a" alt="Contribution streak" />

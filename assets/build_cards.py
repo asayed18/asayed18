@@ -46,6 +46,7 @@ PROJECTS = [
     {
         "file": "card-icop.svg",
         "icon": "🛡️",
+        "logo": "logo-icop.png",  # from asayed18/icop assets/branding
         "title": "ICOP",
         "subtitle": "AI Content Filter for VLC",
         "desc": ["Privacy-first local AI video filtering with", "ONNX Runtime on Windows and Linux."],
@@ -254,6 +255,11 @@ def project_card(p: dict) -> str:
         f'<text x="24" y="{92 + i * 18}" class="desc">{escape(line)}</text>' for i, line in enumerate(p["desc"])
     )
     per = 2 * (w + h - 8)
+    if "logo" in p:
+        data = base64.b64encode((OUT / p["logo"]).read_bytes()).decode()
+        icon = f'<image href="data:image/png;base64,{data}" x="350" y="26" width="36" height="36"/>'
+    else:
+        icon = f'<text x="368" y="53" text-anchor="middle" class="icon">{p["icon"]}</text>'
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
   <defs>
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
@@ -284,7 +290,7 @@ def project_card(p: dict) -> str:
   <rect class="trace" x="1" y="1" width="{w - 2}" height="{h - 2}" rx="14" fill="none" stroke="{FG}" stroke-width="1.5" stroke-linecap="round"/>
   <circle cx="368" cy="44" r="24" fill="#0e0e10" stroke="{LINE}"/>
   <circle class="ring" cx="368" cy="44" r="28" fill="none" stroke="{MUTED}" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="40 200"/>
-  <text x="368" y="53" text-anchor="middle" class="icon">{p["icon"]}</text>
+  {icon}
   <g class="up d1"><text x="24" y="42" class="title">{escape(p["title"])}</text><text x="24" y="64" class="sub">{escape(p["subtitle"])}</text></g>
   <g class="up d2">{desc}</g>
   <g class="up d3">{"".join(tags)}</g>
