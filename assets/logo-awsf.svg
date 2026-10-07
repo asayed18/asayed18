@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- AWSF: steel magnifier over a fuzzy-finder prompt. Steel + red accent matches the ICOP mark. -->
+  <defs>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4f4f5"/>
+      <stop offset=".35" stop-color="#9ca3af"/>
+      <stop offset=".55" stop-color="#e5e7eb"/>
+      <stop offset=".8" stop-color="#52525b"/>
+      <stop offset="1" stop-color="#a1a1aa"/>
+    </linearGradient>
+    <linearGradient id="handle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3f3f46"/>
+      <stop offset=".5" stop-color="#d4d4d8"/>
+      <stop offset="1" stop-color="#27272a"/>
+    </linearGradient>
+    <radialGradient id="glass" cx=".4" cy=".35" r=".75">
+      <stop offset="0" stop-color="#27272a"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <radialGradient id="red" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ff6b6b"/>
+      <stop offset=".45" stop-color="#ef1c1c"/>
+      <stop offset="1" stop-color="#ef1c1c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- handle -->
+  <rect x="318" y="300" width="70" height="190" rx="22" transform="rotate(-45 353 395)" fill="url(#handle)" stroke="#18181b" stroke-width="6"/>
+  <rect x="330" y="300" width="46" height="40" rx="6" transform="rotate(-45 353 395)" fill="#18181b"/>
+  <!-- lens -->
+  <circle cx="220" cy="220" r="176" fill="url(#steel)"/>
+  <circle cx="220" cy="220" r="142" fill="url(#glass)" stroke="#18181b" stroke-width="6"/>
+  <!-- fuzzy finder prompt -->
+  <path d="M138 168 l58 52 l-58 52" fill="none" stroke="#f4f4f5" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="216" y="252" width="76" height="24" rx="12" fill="#a1a1aa"/>
+  <!-- match bars -->
+  <rect x="216" y="168" width="96" height="14" rx="7" fill="#52525b"/>
+  <rect x="216" y="204" width="64" height="14" rx="7" fill="#52525b"/>
+  <!-- red cursor light -->
+  <circle cx="320" cy="264" r="30" fill="url(#red)"/>
+  <circle cx="320" cy="264" r="8" fill="#ffd1d1"/>
+  <!-- glare -->
+  <path d="M110 150 a130 130 0 0 1 90 -66" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="12" stroke-linecap="round"/>
+</svg>

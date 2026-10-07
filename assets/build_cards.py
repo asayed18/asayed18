@@ -38,6 +38,7 @@ PROJECTS = [
     {
         "file": "card-awsf.svg",
         "icon": "🔍",
+        "logo": "logo-awsf.svg",
         "title": "AWSF",
         "subtitle": "AWS Fuzzy Finder",
         "desc": ["Keyboard-driven fuzzy search across Lambda,", "S3, SQS, DynamoDB, RDS, Kinesis & API Gateway."],
@@ -55,6 +56,7 @@ PROJECTS = [
     {
         "file": "card-tynamo.svg",
         "icon": "⚡",
+        "logo": "logo-tynamo.svg",
         "title": "Tynamo",
         "subtitle": "DynamoDB Client Library",
         "desc": ["Simple TypeScript interface for DynamoDB:", "nested attributes, batch ops, local dev."],
@@ -257,7 +259,8 @@ def project_card(p: dict) -> str:
     per = 2 * (w + h - 8)
     if "logo" in p:
         data = base64.b64encode((OUT / p["logo"]).read_bytes()).decode()
-        icon = f'<image href="data:image/png;base64,{data}" x="350" y="26" width="36" height="36"/>'
+        mime = "image/svg+xml" if p["logo"].endswith(".svg") else "image/png"
+        icon = f'<image href="data:{mime};base64,{data}" x="350" y="26" width="36" height="36"/>'
     else:
         icon = f'<text x="368" y="53" text-anchor="middle" class="icon">{p["icon"]}</text>'
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">
